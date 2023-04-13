@@ -1,7 +1,8 @@
 def task(numbers: list):
-    hex_numbers = [hex(num) for num in numbers]  # TODO заменить на итератор map
+    hex_numbers = list(map(hex, numbers))  # заменить на итератор map
 
-    for num, hex_num in ...:  # TODO используя zip объединить число и его шестнадцатеричное представление
+    for num, hex_num in zip(numbers,
+                            hex_numbers):  # используя zip объединить число и его шестнадцатеричное представление
         print(f"Число {num:2} -> {hex_num}")
 
 

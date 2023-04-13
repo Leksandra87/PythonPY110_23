@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 149
-    length: 92
-    placeholder_text: "...  # используй ключевую у функции min, по которой она дол\
-      на определять минимальный элемент"
+    length: 113
+    placeholder_text: '...  # используй ключевую у функции min, по которой она долна
+      определять минимальный элемент'
     initial_state:
       length: 92
       offset: 149
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
-    encrypted_possible_answer: "min(list_words, key=len)"
+    selected: true
+    status: Solved
+    encrypted_possible_answer: min(list_words, key=len)
   text: |
     def task() -> str:
         list_words = [
@@ -38,5 +38,8 @@ files:
   text: |
     Cyan
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 13 Apr 2023 17:55:57 UTC
 record: -1

@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 42
-    length: 88
-    placeholder_text: "[word.upper() for word in words]  # TODO перевести слова в\
-      \ верхний регистр c помощью map"
+    length: 79
+    placeholder_text: '[word.upper() for word in words]  # TODO перевести слова в
+      верхний регистр c помощью map'
     initial_state:
       length: 88
       offset: 42
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
-    encrypted_possible_answer: "list(map(str.upper, words))"
+    selected: true
+    status: Solved
+    encrypted_possible_answer: list(map(str.upper, words))
   text: |
     def task(words: list) -> list:
         return [word.upper() for word in words]  # TODO перевести слова в верхний регистр c помощью map
@@ -38,5 +38,8 @@ files:
   text: |
     ['GOLDENROD', 'PURPLE', 'SALMON', 'TURQUOISE', 'CYAN']
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 13 Apr 2023 15:53:57 UTC
 record: -1

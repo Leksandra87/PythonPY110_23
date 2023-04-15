@@ -10,8 +10,8 @@ files:
       length: 49
       offset: 64
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: itertools.cycle(a)
   text: |
     import itertools
@@ -44,5 +44,8 @@ files:
     3
     1
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 15 Apr 2023 08:40:40 UTC"
 record: -1

@@ -10,8 +10,8 @@ files:
       length: 50
       offset: 104
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "zip(numbers, chars):"
   text: |
     def task():
@@ -36,5 +36,8 @@ files:
     4-d
     5-e
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 15 Apr 2023 08:46:35 UTC"
 record: -1

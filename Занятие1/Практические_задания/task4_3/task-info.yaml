@@ -4,8 +4,8 @@ files:
   visible: true
   placeholders:
   - offset: 240
-    length: 34
-    placeholder_text: '[2] * len(my_floats)))  # TODO заменить на repeat'
+    length: 49
+    placeholder_text: "[2] * len(my_floats)))  # TODO заменить на repeat"
     initial_state:
       length: 49
       offset: 240
@@ -45,5 +45,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 13 Apr 2023 17:27:35 UTC
+  time: "Sat, 15 Apr 2023 08:21:00 UTC"
 record: -1

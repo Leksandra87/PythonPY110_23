@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 223
-    length: 92
-    placeholder_text: '...  # TODO c помощью функции map привести каждый элемент списка
-      к типу int'
+    length: 75
+    placeholder_text: "...  # TODO c помощью функции map привести каждый элемент с\
+      писка к типу int"
     initial_state:
       length: 75
       offset: 223
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: list(map(int, num_list))
+    encrypted_possible_answer: "list(map(int, num_list))"
   text: |
     def task() -> list:
         num_list = [
@@ -42,5 +42,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 13 Apr 2023 17:38:15 UTC
+  time: "Sat, 15 Apr 2023 08:21:19 UTC"
 record: -1

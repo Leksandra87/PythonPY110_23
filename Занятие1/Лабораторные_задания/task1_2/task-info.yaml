@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 149
-    length: 63
-    placeholder_text: '...  # TODO найти длину самого длинного слова'
+    length: 45
+    placeholder_text: "...  # TODO найти длину самого длинного слова"
     initial_state:
       length: 45
       offset: 149
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: max(map(len, list_words))
+    encrypted_possible_answer: "max(map(len, list_words))"
   text: |
     def task() -> int:
         list_words = [
@@ -40,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 13 Apr 2023 17:51:17 UTC
+  time: "Sat, 15 Apr 2023 08:21:27 UTC"
 record: -1

@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 126
-    length: 87
+    length: 80
     placeholder_text: "[num for num in list_numbers if num < 0])  # TODO заменить\
       \ list comprehension на filter"
     initial_state:

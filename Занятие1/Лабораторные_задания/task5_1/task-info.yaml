@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 104
-    length: 50
+    length: 63
     placeholder_text: "...  # TODO поэлементно объединить numbers и chars"
     initial_state:
       length: 50

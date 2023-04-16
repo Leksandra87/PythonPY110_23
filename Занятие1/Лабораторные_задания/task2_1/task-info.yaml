@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 57
-    length: 56
+    length: 84
     placeholder_text: "...)  # TODO отфильтровать только буквы нижнего регистра"
     initial_state:
       length: 56

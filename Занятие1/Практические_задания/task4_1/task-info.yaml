@@ -4,8 +4,8 @@ files:
   visible: true
   placeholders:
   - offset: 343
-    length: 71
-    placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
+    length: 56
+    placeholder_text: "...)  # TODO как получить от итератора следующий объект?"
     initial_state:
       length: 56
       offset: 343
@@ -13,14 +13,14 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: next(iterator_numbers))
-  - offset: 543
-    length: 71
-    placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
+  - offset: 528
+    length: 56
+    placeholder_text: "...)  # TODO как получить от итератора следующий объект?"
     initial_state:
       length: 56
       offset: 528
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: next(iterator_numbers))
   text: |
@@ -65,5 +65,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 13 Apr 2023 17:05:15 UTC
+  time: "Sat, 15 Apr 2023 08:20:45 UTC"
 record: -1

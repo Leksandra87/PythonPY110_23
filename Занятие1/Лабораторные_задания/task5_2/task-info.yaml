@@ -12,7 +12,7 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 52
+    length: 92
     placeholder_text: "...  # TODO  вернуть список температур по Фаренгейту"
     initial_state:
       length: 52

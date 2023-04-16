@@ -10,8 +10,8 @@ files:
       length: 67
       offset: 76
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       for _ in range(10):
               number = next(counter)
@@ -46,5 +46,8 @@ files:
     180
     190
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 15 Apr 2023 08:38:48 UTC"
 record: -1

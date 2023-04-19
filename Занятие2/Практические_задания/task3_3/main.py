@@ -4,7 +4,8 @@ def counter(fn):
     def wrapper(*args, **kwargs):
         result = fn(*args, **kwargs)
 
-        # TODO объявить, что переменная count не локальная, а её надо искать в nonlocal области видимости
+        #  объявить, что переменная count не локальная, а её надо искать в nonlocal области видимости
+        nonlocal count
         count += 1
         print(f"Функция {fn} вызвана {count} раз(а)")
         return result

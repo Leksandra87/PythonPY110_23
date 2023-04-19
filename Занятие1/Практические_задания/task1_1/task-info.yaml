@@ -13,15 +13,15 @@ files:
   placeholders:
   - offset: 134
     length: 54
-    placeholder_text: '[get_distance(point) for point in points]  # TODO записать
-      через map'
+    placeholder_text: "[get_distance(point) for point in points]  # TODO записать\
+      \ через map"
     initial_state:
       length: 68
       offset: 134
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: list(map(get_distance, points))
+    encrypted_possible_answer: "list(map(get_distance, points))"
   text: |
     def get_distance(point: tuple) -> int:
         return (point[0] ** 2 + point[1] ** 2) ** 0.5
@@ -44,5 +44,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 12 Apr 2023 16:32:39 UTC
+  time: "Wed, 12 Apr 2023 16:32:39 UTC"
 record: -1

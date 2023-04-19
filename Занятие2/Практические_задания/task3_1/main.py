@@ -15,7 +15,7 @@ def print_args_kwargs(*args, **kwargs):
 
 
 if __name__ == "__main__":
-    print_args()
-    print_kwargs()
+    print_args(1, 2, 3)
+    print_kwargs(x=10, y=12)
 
-    print_args_kwargs()
+    print_args_kwargs(1, 2, 3, a=12, c=8)

@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 222
-    length: 51
+  - offset: 247
+    length: 55
     placeholder_text: '# TODO зафиксировать время до начала выполнения функции'
     initial_state:
       length: 55
@@ -13,8 +13,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: t0 = time.time()
-  - offset: 319
-    length: 39
+  - offset: 348
+    length: 91
     placeholder_text: '# TODO зафиксировать время после выполнения'
     initial_state:
       length: 43
@@ -25,14 +25,14 @@ files:
     encrypted_possible_answer: |-
       dt = time.time() - t0
               print(f"Функция выполнялась {dt}")
-  - offset: 476
-    length: 25
+  - offset: 532
+    length: 29
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
       length: 29
       offset: 484
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '@time_decorator'
   text: |

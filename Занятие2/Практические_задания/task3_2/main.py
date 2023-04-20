@@ -6,12 +6,15 @@ def time_decorator(fn):
 
     def wrapper(*args, **kwargs):
         print("Этот код будет выполняться перед каждым вызовом функции")
+        t1 = time.time()
 
         #  зафиксировать время до начала выполнения функции
         result = fn(*args, **kwargs)
         #  зафиксировать время после выполнения
+        t2 = time.time()
+        dt = (t2 - t1)
 
-        print("Этот код будет выполняться после каждого вызова функции")
+        print(f"Время выполнения функции {dt}")
         return result
     return wrapper
 
@@ -30,3 +33,4 @@ if __name__ == "__main__":
     print("=" * 25)
 
     print(pow_(4, 4))
+

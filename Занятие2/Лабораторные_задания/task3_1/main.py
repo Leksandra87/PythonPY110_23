@@ -1,16 +1,22 @@
 def positive_check(fn):
     def wrapper(arg):
-        # TODO написать проверку положительности аргумента arg
+        if arg > 0:
+            result = fn(arg)
+        else:
+            raise ValueError("Аргумент функции не является положительным числом")
 
-        result = fn(arg)
+        #  написать проверку положительности аргумента arg
+
         return result
 
     return wrapper
 
 
-# TODO задекорировать функцию
+#  задекорировать функцию
+@positive_check
 def some_func(num: int):
-    ...
+    s = 2 ** num
+    return print(s)
 
 
 if __name__ == "__main__":

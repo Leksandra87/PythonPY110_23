@@ -12,15 +12,15 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 92
-    placeholder_text: "...  # TODO  вернуть список температур по Фаренгейту"
+    length: 52
+    placeholder_text: '...  # TODO  вернуть список температур по Фаренгейту'
     initial_state:
       length: 52
       offset: 64
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: "list(map(lambda temp: temp * (9 / 5) + 32, temp_tuple))"
+    encrypted_possible_answer: 'list(map(lambda temp: temp * (9 / 5) + 32, temp_tuple))'
   text: |
     def task() -> list:
         temp_tuple = (0, 36.6, 100)
@@ -34,5 +34,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 15 Apr 2023 08:50:23 UTC"
+  time: Thu, 20 Apr 2023 14:51:03 UTC
 record: -1

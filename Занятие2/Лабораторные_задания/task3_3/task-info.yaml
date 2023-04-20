@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 55
+    length: 72
     placeholder_text: |-
       def header_footer():  # TODO написать декоратор
           ...
@@ -12,7 +12,7 @@ files:
       length: 55
       offset: 0
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       def header_footer(fn):

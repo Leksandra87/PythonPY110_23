@@ -4,8 +4,8 @@ files:
   visible: true
   placeholders:
   - offset: 153
-    length: 60
-    placeholder_text: "...)  # TODO записать выражение-генератор"
+    length: 41
+    placeholder_text: '...)  # TODO записать выражение-генератор'
     initial_state:
       length: 41
       offset: 153
@@ -40,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 19 Apr 2023 18:02:14 UTC"
+  time: Thu, 20 Apr 2023 16:49:55 UTC
 record: -1

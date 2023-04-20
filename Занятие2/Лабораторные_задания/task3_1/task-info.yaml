@@ -3,27 +3,27 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 54
-    length: 54
+  - offset: 200
+    length: 50
     placeholder_text: '# TODO написать проверку положительности аргумента arg'
     initial_state:
       length: 54
       offset: 54
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if not arg > 0:
                   raise ValueError("Аргумент функции не является положительным числом")
-  - offset: 179
-    length: 29
+  - offset: 296
+    length: 25
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
       length: 29
       offset: 179
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '@positive_check'
   text: |
     def positive_check(fn):
@@ -49,6 +49,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

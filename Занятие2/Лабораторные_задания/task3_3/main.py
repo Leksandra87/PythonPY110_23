@@ -1,5 +1,8 @@
-def header_footer():  # TODO написать декоратор
-    ...
+def header_footer():
+    print('=' * 8)
+
+
+    #  написать декоратор
 
 
 @header_footer

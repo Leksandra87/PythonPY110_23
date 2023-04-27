@@ -1,6 +1,10 @@
-def header_footer():
-    print('=' * 8)
-
+def header_footer(fn):
+    def wr():
+        print('=' * 8)
+        f = fn()
+        print('=' * 8)
+        return f
+    return wr
 
     #  написать декоратор
 

@@ -5,14 +5,14 @@ files:
   placeholders:
   - offset: 104
     length: 50
-    placeholder_text: '...  # TODO поэлементно объединить numbers и chars'
+    placeholder_text: "...  # TODO поэлементно объединить numbers и chars"
     initial_state:
       length: 50
       offset: 104
     initialized_from_dependency: false
     selected: false
     status: Solved
-    encrypted_possible_answer: 'zip(numbers, chars):'
+    encrypted_possible_answer: "zip(numbers, chars):"
   text: |
     def task():
         numbers = [1, 2, 3, 4, 5]
@@ -39,5 +39,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 20 Apr 2023 14:50:59 UTC
+  time: "Thu, 20 Apr 2023 14:50:59 UTC"
 record: -1

@@ -5,8 +5,8 @@ files:
   placeholders:
   - offset: 112
     length: 97
-    placeholder_text: '# TODO объявить, что переменная count не локальная, а её надо
-      искать в nonlocal области видимости'
+    placeholder_text: "# TODO объявить, что переменная count не локальная, а её на\
+      до искать в nonlocal области видимости"
     initial_state:
       length: 97
       offset: 112

@@ -1,7 +1,14 @@
+import random
 from string import ascii_lowercase, ascii_uppercase, digits
 
 
+def gen_cod(n=8):
+    while True:
+        a = ''.join(random.sample((ascii_lowercase + ascii_uppercase + digits), n))
+        yield a
+
+
 if __name__ == "__main__":
-    print(ascii_lowercase)
-    print(ascii_uppercase)
-    print(digits)
+    g = gen_cod()
+    for _ in range(5):
+        print(next(g))

@@ -5,24 +5,24 @@ files:
   placeholders:
   - offset: 57
     length: 12
-    placeholder_text: '...]  # TODO'
+    placeholder_text: "...]  # TODO"
     initial_state:
       length: 12
       offset: 57
     initialized_from_dependency: false
     selected: false
     status: Solved
-    encrypted_possible_answer: word.capitalize() for word in words]
+    encrypted_possible_answer: "word.capitalize() for word in words]"
   - offset: 123
     length: 12
-    placeholder_text: '...)  # TODO'
+    placeholder_text: "...)  # TODO"
     initial_state:
       length: 12
       offset: 123
     initialized_from_dependency: false
     selected: false
     status: Solved
-    encrypted_possible_answer: map(str.capitalize, words))
+    encrypted_possible_answer: "map(str.capitalize, words))"
   text: |
     def list_comprehension(words: list) -> list:
         return [...]  # TODO
@@ -60,5 +60,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 20 Apr 2023 14:50:11 UTC
+  time: "Thu, 20 Apr 2023 14:50:11 UTC"
 record: -1

@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 82
-    length: 39
+  - offset: 68
+    length: 43
     placeholder_text: '# TODO с помощью yield вернуть первое число'
     initial_state:
       length: 43
@@ -13,15 +13,15 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: yield num
-  - offset: 178
-    length: 69
+  - offset: 147
+    length: 73
     placeholder_text: '# TODO с помощью yield вернуть оставшиеся степени двойки до
       бесконечности'
     initial_state:
       length: 73
       offset: 147
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: yield 2 ** i
   text: |
@@ -63,5 +63,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 20 Apr 2023 16:54:56 UTC
+  time: "Fri, 21 Apr 2023 15:05:42 UTC"
 record: -1

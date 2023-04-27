@@ -3,14 +3,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 111
-    length: 31
-    placeholder_text: '...  # TODO записать функцию-генератор'
+  - offset: 28
+    length: 38
+    placeholder_text: "...  # TODO записать функцию-генератор"
     initial_state:
       length: 38
       offset: 28
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       n = 0
@@ -43,5 +43,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 20 Apr 2023 17:14:23 UTC
+  time: "Fri, 21 Apr 2023 15:06:01 UTC"
 record: -1

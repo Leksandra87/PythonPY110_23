@@ -5,15 +5,15 @@ files:
   placeholders:
   - offset: 126
     length: 87
-    placeholder_text: '[num for num in list_numbers if num < 0])  # TODO заменить
-      list comprehension на filter'
+    placeholder_text: "[num for num in list_numbers if num < 0])  # TODO заменить\
+      \ list comprehension на filter"
     initial_state:
       length: 87
       offset: 126
     initialized_from_dependency: false
     selected: false
     status: Solved
-    encrypted_possible_answer: 'filter(lambda x: x < 0, list_numbers))'
+    encrypted_possible_answer: "filter(lambda x: x < 0, list_numbers))"
   text: |
     def task() -> int:
         list_numbers = [8, -8, 5, 5, -4, -7, -1, -3, 4, 8, -8, -3, -3, 4, 5, -5, 1, -7, 3, -2]
@@ -35,5 +35,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 20 Apr 2023 14:50:23 UTC
+  time: "Thu, 20 Apr 2023 14:50:23 UTC"
 record: -1

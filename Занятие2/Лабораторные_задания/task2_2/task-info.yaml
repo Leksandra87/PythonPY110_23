@@ -3,14 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 218
-    length: 56
-    placeholder_text: '...  # TODO написать функцию-генератор возвращающую целые числа'
+  - offset: 57
+    length: 63
+    placeholder_text: "...  # TODO написать функцию-генератор возвращающую целые ч\
+      исла"
     initial_state:
       length: 63
       offset: 57
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Failed
     encrypted_possible_answer: |-
       while True:
@@ -46,7 +47,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Thu, 20 Apr 2023 17:07:41 UTC
+  time: "Fri, 21 Apr 2023 15:05:49 UTC"
   expected: |
     10
     10.5

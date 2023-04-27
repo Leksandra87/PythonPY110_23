@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 64
     length: 49
-    placeholder_text: '...  # TODO бесконечно повторяем элементы кортежа'
+    placeholder_text: "...  # TODO бесконечно повторяем элементы кортежа"
     initial_state:
       length: 49
       offset: 64
@@ -47,5 +47,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 20 Apr 2023 14:50:38 UTC
+  time: "Thu, 20 Apr 2023 14:50:38 UTC"
 record: -1

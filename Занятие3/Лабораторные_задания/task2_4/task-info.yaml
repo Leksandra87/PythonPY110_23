@@ -3,28 +3,28 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 58
-    length: 36
+  - offset: 120
+    length: 32
     placeholder_text: '# TODO считать содержимое JSON файла'
     initial_state:
       length: 36
       offset: 58
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       with open(filename) as f:
               json_data = json.load(f)
-  - offset: 110
-    length: 100
+  - offset: 168
+    length: 140
     placeholder_text: "...  # TODO записать выражение-генератор возвращающее значе\
       ние по ключу contains_improvement_appeals"
     initial_state:
       length: 100
       offset: 110
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "(item[\"contains_improvement_appeals\"] for item in\
       \ json_data)"
   text: |
@@ -53,5 +53,8 @@ files:
 - name: input.json
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 05 May 2023 17:50:06 UTC"
 record: -1
